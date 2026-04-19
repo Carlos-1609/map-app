@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "config": {
-        "googleMapsApiKey": "AIzaSyDv9rhDe0v00ELWlKScW78OwP_8oTaDsj4"
+        "googleMapsApiKey": ""
       },
       "supportsTablet": true,
       "bundleIdentifier": "com.carlos-aoa.mapsapp"
@@ -18,7 +18,7 @@
     "android": {
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBRuN11i0t_MruACmDgsA_wmLK3uHlYwbY"
+          "apiKey": ""
         }
       },
       "adaptiveIcon": {
