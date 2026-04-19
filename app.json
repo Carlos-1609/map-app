@@ -9,9 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "config": {
+        "googleMapsApiKey": "AIzaSyDv9rhDe0v00ELWlKScW78OwP_8oTaDsj4"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlos-aoa.mapsapp"
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBRuN11i0t_MruACmDgsA_wmLK3uHlYwbY"
+        }
+      },
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -19,7 +28,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.carlos_aoa.mapsapp"
     },
     "web": {
       "output": "static",
